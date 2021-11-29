@@ -7,6 +7,8 @@
 <?php include "includes/components/modals/settings.php" ?>
 <?php include "includes/components/modals/cloud.php" ?>
 <?php include "includes/components/modals/newuser.php" ?>
+<?php include "includes/components/modals/confirmExit.php" ?>
+
 
 </body>
 </html>

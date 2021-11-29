@@ -1,4 +1,4 @@
-//Settigns for the data table:
+//Settings for the data table:
 $(document).ready(function() {
     $('#treePointTable').DataTable( {
         paging: false,
@@ -35,7 +35,6 @@ for( var i = 0; i < update.length; ++i ) {
 function openFileModal(){
   $('#openSurveyModal').modal('toggle');
 }
-
 function newFileModal(){
   $('#newSurveyModal').modal('toggle');
 }
@@ -54,14 +53,14 @@ function settingsModal(){
 function editCellModal(){
   $('#editCellModal').modal('toggle');
 }
-function settingsModal(){
-  $('#settingsModal').modal('toggle');
-}
 function cloudModal(){
   $('#cloudModal').modal('toggle');
 }
 function newUserModal(){
   $('#newUserModal').modal('toggle');
+}
+function confirmExitModal(){
+    $('#confirmExitModal').modal('toggle');
 }
 
 
