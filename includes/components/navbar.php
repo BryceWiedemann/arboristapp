@@ -10,11 +10,7 @@
         <input class="form-control mr-sm-2" type="search" placeholder="Search: Files, Settings, People, Etc." aria-label="">
       </form>
       
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="cloudModal()">
-          Cloud
-        </a>
-      </li>
+
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,28 +30,30 @@
         </div>
       </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Edit
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Copy</a>
-          <a class="dropdown-item" href="#">Cut</a>
-          <a class="dropdown-item" href="#">Paste</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#" onclick="settingsModal()">Settings</a>
-        </div>
-      </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="cloudModal()">
+                Cloud
+            </a>
+        </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          View
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">New Window</a>
-          <a class="dropdown-item" href="#">Close Window</a>
-        </div>
-      </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="">
+                Guides
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="settingsModal()">
+                Settings
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="">
+                FAQ/Help
+            </a>
+        </li>
+
 
 
 
