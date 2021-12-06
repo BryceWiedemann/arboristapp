@@ -13,7 +13,6 @@
             <div class="modal-body">
                 <h6>Are you sure you wish to exit? <br> All unsaved data will be lost.</h6>
             </div>
-            <hr>
             <div class="modal-footer">
                 <a href = "index.php"><button type="button" class="btn btn-outline-primary" >Confirm</button></a>
                 <button type="button" class="btn btn-primary"  onclick="confirmExitModal()">Go back</button>
