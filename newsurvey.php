@@ -73,6 +73,11 @@
                 <textarea class="form-control" id="formGroupExampleInput2" rows="4" placeholder=""></textarea>
               </div>
 
+                <div class="form-group">
+                    <label for="formGroupExampleInput2"><b>Survey Statistics:</label>
+                    <button type="button" class="btn btn-outline-primary" onclick="statsModal()">
+                        Stats
+                </div>
             </form>
 
         </div>
