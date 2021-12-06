@@ -86,9 +86,18 @@
                 </label>
             </div>
 
+            <hr>
+            <h6>New User</h6>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked>
+                <label class="form-check-label" for="defaultCheck2">
+                    Show new user page at startup
+                </label>
+            </div>
+
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary"  onclick="settingsModal()">Change</button>
+          <button type="button" class="btn btn-primary"  onclick="settingsModal()">Save</button>
         </div>
       </div>
     </div>

@@ -80,9 +80,20 @@
                 <p>Forum</p>
             </div>
 
+            <hr>
+            <h6><i class=""></i> Show at startup?</h6>
+            <div class="do-not-show-again">
+                <input type="checkbox" value="" id="defaultCheck3">
+                <label for="defaultCheck2">
+                    Do not show again
+                </label>
+            </div>
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal" data-backdrop="false" >Try Out Arborist</button>
             </div>
+
+
 
         </div>
       </div>
