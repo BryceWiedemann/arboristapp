@@ -28,6 +28,11 @@ for( var i = 0; i < update.length; ++i ) {
 //   .catch(console.error);
 // }
 
+function tableEntries() {
+    var rows =  document.getElementById('treePointTable').tBodies[0].rows.length;
+    document.getElementById('totalRows').innerHTML === rows;
+}
+
 
 
 
@@ -61,6 +66,9 @@ function newUserModal(){
 }
 function confirmExitModal(){
     $('#confirmExitModal').modal('toggle');
+}
+function statsModal(){
+    $('#statsModal').modal('toggle');
 }
 
 
